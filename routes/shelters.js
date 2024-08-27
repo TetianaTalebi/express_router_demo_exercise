@@ -9,3 +9,7 @@ router.get('/shelters', (req, res) => {
 router.get('/shelters/:id', (req, res) => {
     res.send('Viewing one shelter!');
 })
+
+router.put('/shelters/:id/edit', (req, res) => {
+    res.send('Editing one shelter!');
+})
