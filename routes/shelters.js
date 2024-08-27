@@ -6,6 +6,10 @@ router.get('/shelters', (req, res) => {
     res.send('All shelters!');
 })
 
+router.post('/shelters', (req, res) => {
+    res.send('Creating a shelter!');
+})
+
 router.get('/shelters/:id', (req, res) => {
     res.send('Viewing one shelter!');
 })
