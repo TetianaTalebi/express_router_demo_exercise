@@ -17,3 +17,5 @@ router.get('/shelters/:id', (req, res) => {
 router.put('/shelters/:id/edit', (req, res) => {
     res.send('Editing one shelter!');
 })
+
+module.exports = router;
