@@ -12,3 +12,5 @@ router.get('/:id', (req, res) => {
 router.put('/:id/edit', (req, res) => {
     res.send('Editing one dog!');
 })
+
+module.exports = router;
