@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 const shelterRoutes = require('./routes/shelters');
+const dogRoutes = require('./routes/dogs');
 
 app.use('/breeders/', shelterRoutes);
 
